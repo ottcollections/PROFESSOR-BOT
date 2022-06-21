@@ -3,7 +3,7 @@ from utils import temp
 
 class script(object):
     START_TXT = """👋 𝙷𝙴𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 {},\n 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽 𝙼𝚈 𝙶𝚁𝙾𝚄𝙿 @Hd_moviesmalyalam..."""
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 {},\n 𝙸𝙼 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝙰𝚄𝚃𝙾𝙵𝙸𝙻𝚃𝙴𝚁 𝙱𝙾𝚃 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂 𝙳𝙾 𝙲𝙷𝙴𝙲𝙺 𝚃𝙷𝙴 𝙱𝙾𝚄𝚃𝚃𝙾𝙽𝚂 ⬇️ 𝙱𝙴𝙻𝙾𝚆 𝙵𝙾𝚁 𝙼𝙾𝚁𝙴 𝙼𝚈 𝙶𝚁𝙾𝚄𝙿 @Hd_moviesmalyalam..."""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴 : {}
@@ -15,8 +15,8 @@ class script(object):
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁 : 𝙷𝙴𝚁𝙾𝙺𝚄
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂 : 𝚅1.0.43 [𝙼𝙰𝙹𝙾𝚁]"""
     SOURCE_TXT = """<b>NOTE:</b>
-- This is a Eva Mari clone Project
-- 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁 👉 :<a href=https://github.com/MrMKN/PROFESSOR-BOT>𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑-𝐁𝐎𝐓</a>
+- 𝚃𝙷𝙸𝚂 𝙸𝚂 𝙰𝙽 𝙴𝚅𝙰𝙼𝙰𝚁𝙸𝙰 𝙲𝙻𝙾𝙽𝙴 𝙱𝙾𝚃
+- 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴 👉 :<a href=https://github.com/MrMKN/PROFESSOR-BOT>𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴</a>
 
 <b>DEVS:</b>
 - 𝙳𝚎𝚟 1<a href=https://t.me/NJaNu_yir>𝙰𝙱𝙷𝙸</a>"""
@@ -390,11 +390,11 @@ To Get Sticker ID
     BTN = InlineKeyboardMarkup( [[
             InlineKeyboardButton('➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💥 𝙾𝚆𝙽𝙴𝚁 💥', url='https://t.me/NJaNu_yir'), 
-            InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢', url='https://t.me/Hd_moviesmalyalam')
+            InlineKeyboardButton('⚡️ 𝙾𝚆𝙽𝙴𝚁 ⚡️', url='https://t.me/NJaNu_yir'), 
+            InlineKeyboardButton('🔔 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 🔔', url='https://t.me/Hd_moviesmalyalam')
             ],[      
             InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿 ℹ️', callback_data='help'),
-            InlineKeyboardButton('💫 𝙰𝙱𝙾𝚄𝚃 💫', callback_data='about')
+            InlineKeyboardButton('💬 𝙰𝙱𝙾𝚄𝚃 💬', callback_data='about')
         ]]  
         )
 
