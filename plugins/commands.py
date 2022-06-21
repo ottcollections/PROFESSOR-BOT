@@ -41,7 +41,7 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention, message.from_user.username, temp.U_NAME))
     if len(message.command) != 2:                
-        await message.reply_chat_action("Typing")
+
         await asyncio.sleep(1)
         await m.delete()        
         await message.reply_photo(
